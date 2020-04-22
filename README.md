@@ -1,1 +1,1 @@
-# The-GeoStack-Project
+# The GeoStack Project
