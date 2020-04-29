@@ -79,9 +79,11 @@ Weblinks
 
 
 
+
 2 - Basic knowledge in TypeScript / JavaScript + Angular is an advantage
 
 Advice: take 5 days to study some beginner tutorials to get a feel for the source code examples used in this course.
+
 
 
 
@@ -103,11 +105,11 @@ You will find out soon enough if you need to build some extra skills first.
 1. In the main folder: read the document The-GeoStack-Project-Read-Me.pdf
 2. Downloads subfolder: follow the document Download-Datasets.pdf to get the geospatial and GPS datasets.
 3. GeoStack-Workshop subfolder
- 1) Follow the document Creating-the-GeoStack-Workshop-VM.pdf
- 2) Follow the document Workshop-Assignments.pdf.
+   1) Follow the document Creating-the-GeoStack-Workshop-VM.pdf
+   2) Follow the document Workshop-Assignments.pdf.
 4. GeoStack-Course subfolder
- 1) Follow the document Creating-the-GeoStack-Course-VM
- 2) Work through the large set of detailed installation and programming manuals.
+   1) Follow the document Creating-the-GeoStack-Course-VM
+   2) Work through the large set of detailed installation and programming manuals.
 
 Tip: you might consider downloading the videos from the YouTube channel for offline use.
 
