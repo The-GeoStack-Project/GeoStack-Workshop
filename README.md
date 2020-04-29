@@ -1,10 +1,12 @@
 # The GeoStack Project
 Welcome to The GeoStack Project, a Self-study Beginner Course in Geospatial Programming for Data Scientists!
 
+**The content subfolders will be published here somewhere between May 15 and June 1, 2020.**
+
 ## Reader's Guide
 1. Read this project's home page first!
 2. See the introduction video 'Presenting The GeoStack Project' on the project's YouTube channel.
-- ### Weblink goes here
+- **Add webblinks for the video and channel**
 3. Follow the download and installation instructions below to get the course on your pc or laptop.
 4. Read the document The-GeoStack-Project-Read-Me.pdf
 5. Follow the advice below on checking and building your skill levels to follow this course.
@@ -12,18 +14,18 @@ Welcome to The GeoStack Project, a Self-study Beginner Course in Geospatial Prog
 7. Explore the overview videos and tutorial clips on the YouTube channel for the different parts of the full course.
 8. Do the full 10-day GeoStack Course
 
-**The content will be published here somewhere between May 15 and June 1, 2020.**
-
-## Licensing & Disclaimer
-1. Licensing - Applicable Licenses
+## Licensing - Software & Content
 This project is published as an Open Source Software project with Open Content for easy re-use.
 - The software is released under the European Union Public License (EUPL).
 - The content is released und the Creative Commmons Attribution License (CC-BY).
 
 Datasets, Software and online services used from third parties are (re-)used under their own respective licenses.
 
-2. Disclaimer - Scope Limitations
+## Disclaimer - Scope Limitations
 The software and content of this project are only intended to learn about programming geospatial dataset processing in Python and programming webapplications in TypeScript for the visualization of this geospatial data on digital topographical maps.
+
+Deciding on the fitness for use and using the software and content is your own responsibility.
+Any other application or use of the software and content other then for educational purposes is not intended and not advised!
 
 ## Learning Goals
 There are 3 learning goals:
@@ -39,8 +41,8 @@ There are 3 learning goals:
 **The intermediate goal** is to learn how to build three webservices with an API for the webapplications to use.
 - Two webservices are required to get access to the 2D and 3D digital topographical maps through the API's of their respective map tile servers as the geospatial web map servers (WMS). 
 - The third webservice is provided by programming a microwebservice application with the Python Flask framework to get access to the datasets in the MongoDB datastore. 
-   It is in this Python web application where the magic happens to program the 'payload' or 'business logic' for data selection and processing that needs to match the functionality in the TypeScript webapplication to visualize the required geospatial data.
-   Isolating the data processing in a (Flask) webapplication behind a webservice API from the Flask application uncouples the data processing from the visualization in the webapplications, making it easy to replace or update either application seperately.
+  - It is in this Python web application where the magic happens to program the 'payload' or 'business logic' for data selection and processing that needs to match the functionality in the TypeScript webapplication to visualize the required geospatial data.
+  - Isolating the data processing in a (Flask) webapplication behind a webservice API from the Flask application uncouples the data processing from the visualization in the webapplications, making it easy to replace or update either application seperately.
 
 **The starting goal** is to learn about the approximately 50 software components required in the Client / Server software architecture you will need to download, install, configure, program and run to be able to use the end-user webapplications in your webbrowser. Learn along the way about the relations all these components have.
 
@@ -83,11 +85,11 @@ You will find out soon enough if you need to build some extra skills first.
 1. In the main folder: read the document The-GeoStack-Project-Read-Me.pdf
 2. Downloads subfolder: follow the document Download-Datasets.pdf to get the geospatial datasets and GPS track log datasets.
 3. GeoStack-Workshop subfolder
-..1. Follow the document Creating-the-GeoStack-Workshop-VM.pdf
-..2. Follow the document Workshop-Assignments.pdf.
+  1. Follow the document Creating-the-GeoStack-Workshop-VM.pdf
+  2. Follow the document Workshop-Assignments.pdf.
 4. GeoStack-Course subfolder
-..1. Follow the document Creating-the-GeoStack-Course-VM
-..1. Work through the large set of detailed installation and programming manuals.
+  1. Follow the document Creating-the-GeoStack-Course-VM
+  2. Work through the large set of detailed installation and programming manuals.
 
-Tip: you might want to download the videos from the YouTube channel to use offline.
+Tip: you might consider to download the videos from the YouTube channel to use offline.
 
