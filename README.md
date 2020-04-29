@@ -1,10 +1,7 @@
 # The GeoStack Project
 Welcome to The GeoStack Project, a Self-study Beginner Course in Geospatial Programming for Data Scientists!
-
-
-The course consists of a 1-day GeoStack Workshop and a 10-day GeoStack Course.
-
-The course runs on a VirtualMachine with Ubuntu Linux in VirtualBox so it works on Linux, MacOS and Windows.
+- The course consists of a 1-day GeoStack Workshop and a 10-day GeoStack Course.
+- The course runs on a VirtualMachine with Ubuntu Linux in VirtualBox so it works on Linux, MacOS and Windows.
 
 **The content subfolders will be published here somewhere between May 15 and June 1, 2020.**
 
@@ -73,27 +70,23 @@ If you are on the other hand a real beginner in programming, you might want to i
 
 ## Required skill levels
 **1 - Basic skills** in Python programming are a **must**!
-
-Advice: take 5 to 10 days to study the great beginner course 'Python for Everybody' by Charles Severance (dr. Chuck).
-- It's all Open Content and free to re-use.
-
-Weblinks
-- Website Python for Everybody            : [https://www.py4e.com/](https://www.py4e.com/)
-- Free e-book 'Exploring Data in Python 3': [https://www.py4e.com/book](https://www.py4e.com/book)
+- Advice: take 5 to 10 days to study the great beginner course 'Python for Everybody' by Charles Severance (dr. Chuck).
+  - It's all Open Content and free to re-use.
+- Weblinks
+  - Website Python for Everybody            : [https://www.py4e.com/](https://www.py4e.com/)
+  - Free e-book 'Exploring Data in Python 3': [https://www.py4e.com/book](https://www.py4e.com/book)
 
 
 **2 - Basic knowledge** in TypeScript / JavaScript + Angular is an advantage
+- Advice: take 5 days to study some beginner tutorials to get a feel for the source code examples used in this course.
 
-Advice: take 5 days to study some beginner tutorials to get a feel for the source code examples used in this course.
 
-
-**3 - Some knowledge** of Virtual Box, Ubuntu Linux, MongoDB, Docker comes in handy of course!
-
-Advice: take 1 or 2 days to read up on these topics on their wikipages on Wikipedia and on their project websites.
-The course manuals will explain and get you there to get the software up and running!
+**3 - Some knowledge** of Virtual Box, Ubuntu Linux, MongoDB, Docker, OpenLayers and Cesium comes in handy of course!
+- Advice: take 1 or 2 days to read up on these topics on their wikipages on Wikipedia and on their project websites.
+- The course manuals en example source code files will guide you to get the software up and running!
 
 ## How to get started?
-The best way to get started is to do the 1-day GeoStack Workshop first.
+The best way to get started is to work through the 1-day GeoStack Workshop first.
 
 You will find out soon enough if you need to build some extra skills first.
 
@@ -105,11 +98,11 @@ You will find out soon enough if you need to build some extra skills first.
 1. In the main folder: read the document The-GeoStack-Project-Read-Me.pdf
 2. Downloads subfolder: follow the document Download-Datasets.pdf to get the geospatial and GPS datasets.
 3. GeoStack-Workshop subfolder
-  1) Follow the document Creating-the-GeoStack-Workshop-VM.pdf
-  2) Follow the document Workshop-Assignments.pdf.
+- 1: Follow the document Creating-the-GeoStack-Workshop-VM.pdf
+- 2: Follow the document Workshop-Assignments.pdf.
 4. GeoStack-Course subfolder
-  1) Follow the document Creating-the-GeoStack-Course-VM
-  2) Work through the large set of detailed installation and programming manuals.
+- 1: Follow the document Creating-the-GeoStack-Course-VM
+- 2: Work through the large set of detailed installation and programming manuals.
 
 Tip: you might consider downloading the videos from the YouTube channel for offline use.
 
