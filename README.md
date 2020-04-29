@@ -69,23 +69,18 @@ If you are on the other hand a real beginner in programming, you might want to i
 
 ## Required skill levels
 Basic skills in Python programming are a **must**!
-
 Advice: take 5 to 10 days to study the great beginner course 'Python for Everybody' by Charles Severance (dr. Chuck).
-
+- It's all Open Content and free to re-use.
 Weblinks
 - Website Python for Everybody            : [https://www.py4e.com/](https://www.py4e.com/)
 - Free e-book 'Exploring Data in Python 3': [https://www.py4e.com/book](https://www.py4e.com/book)
 
-It's all Open Content and free to re-use.
 
-
-Basic knowledge in TypeScript / JavaScript + Angular is an advantage!
-
+Basic knowledge in TypeScript / JavaScript + Angular is an advantage
 Advice: take 5 days to study some beginner tutorials to get a feel for the source code examples used in this course.
 
 
 Some knowledge of Virtual Box, Ubuntu Linux, MongoDB, Docker comes in handy of course!
-
 Advice: take 1 or 2 days to read up on these topics on their wikipages on Wikipedia and on their project websites.
 The course manuals will explain and get you there to get the software up and running!
 
@@ -102,11 +97,11 @@ You will find out soon enough if you need to build some extra skills first.
 1. In the main folder: read the document The-GeoStack-Project-Read-Me.pdf
 2. Downloads subfolder: follow the document Download-Datasets.pdf to get the geospatial and GPS datasets.
 3. GeoStack-Workshop subfolder
-  1. Follow the document Creating-the-GeoStack-Workshop-VM.pdf
-  2. Follow the document Workshop-Assignments.pdf.
++1. Follow the document Creating-the-GeoStack-Workshop-VM.pdf
++2. Follow the document Workshop-Assignments.pdf.
 4. GeoStack-Course subfolder
-  1. Follow the document Creating-the-GeoStack-Course-VM
-  2. Work through the large set of detailed installation and programming manuals.
++1. Follow the document Creating-the-GeoStack-Course-VM
++2. Work through the large set of detailed installation and programming manuals.
 
 Tip: you might consider downloading the videos from the YouTube channel for offline use.
 
