@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Icon[en_US]=gnome-panel-launcher
+Name[en_US]=tilestache-tileserver-solution
+Exec=sh -c "fuser -k 8080/tcp; bash ~/Geostack-Workshop-Content/Scripts/tileserver.sh Solution;bash"
+Name=tilestache-tileserver
+Icon=gnome-panel-launcher
