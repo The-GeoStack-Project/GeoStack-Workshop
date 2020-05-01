@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_US]=gnome-panel-launcher
+Name[en_US]=angular-service-solution
+Exec=sh -c "atom ~/Geostack-Workshop-Content/Part-4-Data-visualization/Sourcecode/Solution/map-viewer/src/app/services/crane.service.ts"
+Name=angular-service-solution
+Icon=gnome-panel-launcher
