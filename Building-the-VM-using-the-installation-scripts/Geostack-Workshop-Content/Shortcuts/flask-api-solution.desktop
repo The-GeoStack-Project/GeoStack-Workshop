@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Icon[en_US]=gnome-panel-launcher
+Name[en_US]=flask-api-solution
+Exec=sh -c "fuser -k 5000/tcp;bash ~/Geostack-Workshop-Content/Scripts/flask.sh Solution; bash"
+Name=flask-api
+Icon=gnome-panel-launcher

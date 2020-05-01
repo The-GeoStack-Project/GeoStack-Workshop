@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=true
-Icon[en_US]=gnome-panel-launcher
-Name[en_US]=flask-api-assignment
-Exec=sh -c "fuser -k 5000/tpc; bash ~/Geostack-Workshop-Content/Scripts/flask.sh Assignment; bash"
-Name=flask-api
-Icon=gnome-panel-launcher

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c85ba4b9-0606-4124-9979-fad02aa98fd0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JupyterTrust" id="99c548b1-b7c8-4728-8e76-e485a502d4eb" />
+  <component name="ProjectId" id="1YZYnl8n6EXA7QyznBvYnBLa3XI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c85ba4b9-0606-4124-9979-fad02aa98fd0" name="Default Changelist" comment="" />
+      <created>1583151752147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583151752147</updated>
+      <workItem from="1583151755917" duration="10409000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="969" y="339" key="com.intellij.ide.util.TipDialog" timestamp="1583151756649">
+      <screen x="67" y="27" width="2493" height="971" />
+    </state>
+    <state x="969" y="339" key="com.intellij.ide.util.TipDialog/67.27.2493.971@67.27.2493.971" timestamp="1583151756649" />
+    <state x="977" y="233" key="run.anything.popup" timestamp="1583152017671">
+      <screen x="67" y="27" width="2493" height="971" />
+    </state>
+    <state x="977" y="233" key="run.anything.popup/67.27.2493.971@67.27.2493.971" timestamp="1583152017671" />
+    <state x="976" y="237" width="672" height="160" key="search.everywhere.popup" timestamp="1583159266984">
+      <screen x="67" y="27" width="2493" height="971" />
+    </state>
+    <state x="976" y="237" width="672" height="160" key="search.everywhere.popup/67.27.2493.971@67.27.2493.971" timestamp="1583159266984" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$USER_HOME$/map.component.ts</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

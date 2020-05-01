@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Icon[en_US]=gnome-panel-launcher
+Name[en_US]=angular-solution
+Exec=sh -c "fuser -k 4200/tcp; sudo npm start --prefix ~/Geostack-Workshop-Content/Part-4-Data-visualization/Sourcecode/Solution/map-viewer/"
+Name=angular-solution
+Icon=gnome-panel-launcher
