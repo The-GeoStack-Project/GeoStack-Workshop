@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Terminal=false
-Exec=sh -c "fuser -k 8888/tcp; cd ~/Geostack-Workshop-Content/ ;  jupyter lab"
+Exec=sh -c "fuser -k 8888/tcp; cd ~/GeoStack-Workshop/Geostack-Workshop-Content/ ;  jupyter lab"
 Name=jupyter-lab
 Icon=gnome-panel-launcher
 Name[en_US]=jupyter-lab

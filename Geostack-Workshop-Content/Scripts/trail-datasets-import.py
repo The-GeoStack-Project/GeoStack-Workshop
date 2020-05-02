@@ -70,9 +70,9 @@ def import_data():
     print("Starting import")
 
 
-    load_data(pd.read_json('~/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/Route-Biesbosch.json'),"Biesbosch")
-    load_data(pd.read_json('~/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/Route-Zeeland_Car_1.json'),"Zeeland-Car-1")
-    load_data(pd.read_json('~/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/Route-Zeeland_Car_2.json'),"Zeeland-Car-2")
+    load_data(pd.read_json('~/GeoStack-Workshop/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/Route-Biesbosch.json'),"Biesbosch")
+    load_data(pd.read_json('~/GeoStack-Workshop/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/Route-Zeeland_Car_1.json'),"Zeeland-Car-1")
+    load_data(pd.read_json('~/GeoStack-Workshop/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/Route-Zeeland_Car_2.json'),"Zeeland-Car-2")
 
 
     print('Done importing')
