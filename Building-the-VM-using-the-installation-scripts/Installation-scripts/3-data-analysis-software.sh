@@ -24,8 +24,12 @@ sleep 2
 # Install cython before cartopy since it's a dependency for cartopy.
 pip3 install cython
 
-# Install cartopy matplotlib and scipy.
-pip3 install cartopy matplotlib scipy
+# Install matplotlib and scipy.
+pip3 install matplotlib scipy
+
+# Install Cartopy
+pip3 install git+https://github.com/SciTools/cartopy.git --no-binary cartopy
+
 
 echo "-------------->>>> Installing GPXPY <<<<--------------"
 sleep 2
