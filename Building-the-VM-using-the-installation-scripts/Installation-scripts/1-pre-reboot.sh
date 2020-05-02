@@ -11,13 +11,6 @@ sleep 2
 # Install OpenVMTools for VMware
 sudo apt install open-vm-tools-desktop
 
-echo "---------->>>> Hiding unused desktop shortcuts <<<<-----------"
-sleep 2 
-# Show the mounted volumes on the desktop
-# Show trash icon on desktop
-gsettings set org.gnome.nautilus.desktop trash-icon-visible true
-gsettings set org.gnome.nautilus.desktop volumes-visible true
-
 echo "-------------->>>> Installing Bleachbit <<<<--------------"
 sleep 2 
 # Install bleachbit
