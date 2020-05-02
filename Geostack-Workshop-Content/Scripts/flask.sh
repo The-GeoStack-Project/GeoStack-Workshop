@@ -2,7 +2,7 @@
 
 type=${1?Error: no Type given}
 
-assignments=~/Geostack-Workshop-Content/Part-3-Data-usage/Sourcecode/$type/1.Flask-API/app.py
+assignments=~/GeoStack-Workshop/Geostack-Workshop-Content/Part-3-Data-usage/Sourcecode/$type/1.Flask-API/app.py
 
 assignment1=$(cat $assignments |tr -d "[:blank:]"| grep -e 'trail_connection=PyMongo(app,uri="mongodb://localhost:27017/Trail_Database")' -e "trail_connection=PyMongo(app,uri='mongodb://localhost:27017/Trail_Database')")
 
@@ -19,7 +19,7 @@ clear
 
 
 if [ "$assignment1" != "" ] && [ "$assignment2" != "" ]&& [ "$assignment3" != "" ]&& [ "$assignment4" != "" ]&& [ "$assignment5" != "" ]; then
-     gunicorn3 -b :5000 app:app --chdir ~/Geostack-Workshop-Content/Part-3-Data-usage/Sourcecode/$type/1.Flask-API &>/dev/null & echo "Good Job, you have completed all the assignments. If you navigate to the URL: 'http://localhost:5000/api/trackers' or 'http://localhost:5000/api/trails' you can see the results."
+     gunicorn3 -b :5000 app:app --chdir ~/GeoStack-Workshop/Geostack-Workshop-Content/Part-3-Data-usage/Sourcecode/$type/1.Flask-API &>/dev/null & echo "Good Job, you have completed all the assignments. If you navigate to the URL: 'http://localhost:5000/api/trackers' or 'http://localhost:5000/api/trails' you can see the results."
 else
     if [ "$assignment1" != "" ]; then
     	echo "Assignment 1 is correct"

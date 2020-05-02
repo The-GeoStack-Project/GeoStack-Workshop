@@ -4,6 +4,6 @@ Type=Application
 Terminal=true
 Icon[en_US]=gnome-panel-launcher
 Name[en_US]=tilestache-tileserver-assignment
-Exec=sh -c " bash ~/Geostack-Workshop-Content/Scripts/tileserver.sh Assignment; bash"
+Exec=sh -c " bash ~/GeoStack-Workshop/Geostack-Workshop-Content/Scripts/tileserver.sh Assignment; bash"
 Name=tilestache-tileserver
 Icon=gnome-panel-launcher

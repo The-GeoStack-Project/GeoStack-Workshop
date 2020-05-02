@@ -4,6 +4,6 @@ Type=Application
 Terminal=false
 Icon[en_US]=gnome-panel-launcher
 Name[en_US]=angular-openlayers-solution
-Exec=sh -c "atom ~/Geostack-Workshop-Content/Part-4-Data-visualization/Sourcecode/Solution/map-viewer/src/app/pages/map.component.ts"
+Exec=sh -c "atom ~/GeoStack-Workshop/Geostack-Workshop-Content/Part-4-Data-visualization/Sourcecode/Solution/map-viewer/src/app/pages/map.component.ts"
 Name=angular-openlayers-solution
 Icon=gnome-panel-launcher

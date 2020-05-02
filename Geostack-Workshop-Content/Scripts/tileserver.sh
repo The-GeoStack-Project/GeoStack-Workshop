@@ -2,7 +2,7 @@
 
 type=${1?Error: no Type given}
 
-assignment=~/Geostack-Workshop-Content/Part-3-Data-usage/Sourcecode/$type/2.Tilestache-Tileserver/configuration.cfg
+assignment=~/GeoStack-Workshop/Geostack-Workshop-Content/Part-3-Data-usage/Sourcecode/$type/2.Tilestache-Tileserver/configuration.cfg
 
 assignment7=$(cat $assignment | grep '"path":"cache",')
 
@@ -13,7 +13,7 @@ fuser -k 8080/tcp
 clear
 
 if [ "$assignment7" != "" ] && [ "$assignment8" != "" ]; then
-   cd && gunicorn3 --workers 4 -b :8080 "TileStache:WSGITileServer('Geostack-Workshop-Content/Part-3-Data-usage/Sourcecode/$type/2.Tilestache-Tileserver/configuration.cfg')" &>/dev/null & sed -i '/^ *#/ d' ~/Geostack-Workshop-Content/Part-3-Data-usage/Sourcecode/$type/2.Tilestache-Tileserver/configuration.cfg  & echo "Good Job, you have completed all the assignments. If you navigate to the URL: 'http://localhost:8080/openstreetmap/0/0/0.png' you can see the results."
+   cd && gunicorn3 --workers 4 -b :8080 "TileStache:WSGITileServer('GeoStack-Workshop/Geostack-Workshop-Content/Part-3-Data-usage/Sourcecode/$type/2.Tilestache-Tileserver/configuration.cfg')" &>/dev/null & sed -i '/^ *#/ d' ~/GeoStack-Workshop/Geostack-Workshop-Content/Part-3-Data-usage/Sourcecode/$type/2.Tilestache-Tileserver/configuration.cfg  & echo "Good Job, you have completed all the assignments. If you navigate to the URL: 'http://localhost:8080/openstreetmap/0/0/0.png' you can see the results."
 else
     if [ "$assignment7" != "" ]; then
     echo "assignment 6 is correct"
