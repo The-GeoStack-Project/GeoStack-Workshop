@@ -6,17 +6,13 @@ sleep 2
 # Install curl
 sudo apt install curl
 
-# Use curl to download the nodesource_setup script.
-curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
-
-# Run the nodesource_setup script.
-sudo bash nodesource_setup.sh
-
-# Install a package required for nodejs
+# Install the package required for nodejs.
 sudo apt install build-essential
 
-# Install nodejs
-sudo apt install nodejs
+# Install nodejs.
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
 
 echo "-------------->>>> Cleanup <<<<--------------"
 sleep 2
