@@ -28,7 +28,7 @@ sleep 2
 wget -qO - wget http://nginx.org/keys/nginx_signing.key | sudo apt-key add -
 
 # Add the NGINX repo to the system's repository list.
-sudo sh -c 'echo "deb [arch=amd64] http://nginx.org/packages/mainline/ubuntu/ `lsb_release -cs` nginx" >> sudo tee --append /etc/apt/sources.list.d/nginx.list'
+sudo sh -c 'echo "deb [arch=amd64] http://nginx.org/packages/mainline/ubuntu/ `lsb_release -cs` nginx" >> /etc/apt/sources.list.d/nginx.list'
 
 # Update our local database
 sudo apt update
