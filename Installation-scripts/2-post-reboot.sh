@@ -30,6 +30,7 @@ echo "-------------->>>> Creating file links <<<<--------------"
 sleep 2
 # Create file links on the desktop for each of the folders in
 # the Geostack-Workshop-Content folder.
+ln -s /home/geostack/GeoStack-Workshop/Geostack-Workshop-Content/Part-0-Introduction ~/Desktop/Part-0-Introduction
 ln -s /home/geostack/GeoStack-Workshop/Geostack-Workshop-Content/Part-1-Data-processing ~/Desktop/Part-1-Data-processing
 ln -s /home/geostack/GeoStack-Workshop/Geostack-Workshop-Content/Part-2-Data-storage ~/Desktop/Part-2-Data-storage
 ln -s /home/geostack/GeoStack-Workshop/Geostack-Workshop-Content/Part-3-Data-usage ~/Desktop/Part-3-Data-usage
@@ -37,3 +38,4 @@ ln -s /home/geostack/GeoStack-Workshop/Geostack-Workshop-Content/Part-4-Data-vis
 
 echo "-------------->>>> DONE <<<<--------------"
 sleep 2
+

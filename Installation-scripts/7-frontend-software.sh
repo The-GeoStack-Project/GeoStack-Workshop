@@ -31,3 +31,4 @@ cd ~/GeoStack-Workshop/Geostack-Workshop-Content/Part-4-Data-visualization/Sourc
 cd ~/GeoStack-Workshop/Geostack-Workshop-Content/Part-4-Data-visualization/Sourcecode/Assignment/map-viewer && sudo npm install 
 
 echo "-------------->>>> DONE <<<<--------------"
+

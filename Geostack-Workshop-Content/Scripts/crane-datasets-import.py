@@ -73,9 +73,9 @@ def import_data():
     connect('Crane_Database')
     print("Starting import")
 
-    load_data(pd.read_json('~/GeoStack-Workshop/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/Crane-Agnetha.json'),"Agnetha")
-    load_data(pd.read_json('~/GeoStack-Workshop/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/Crane-Frida.json'),"Frida")
-    load_data(pd.read_json('~/GeoStack-Workshop/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/Crane-Cajsa.json'),"Cajsa")
+    load_data(pd.read_csv('~/GeoStack-Workshop/Geostack-Workshop-Content/Workshop-Datasets/CSV/20181003_Dataset_SV_GPS_Crane_9407_STAW_Crane_RRW-BuGBk_Agnetha.csv'),"Agnetha")
+    load_data(pd.read_csv('~/GeoStack-Workshop/Geostack-Workshop-Content/Workshop-Datasets/CSV/20181003_Dataset_SV_GPS_Crane_9381_STAW_Crane_RRW-BuGBk_Frida.csv'),"Frida")
+    load_data(pd.read_csv('~/GeoStack-Workshop/Geostack-Workshop-Content/Workshop-Datasets/CSV/20181003_Dataset_SV_GPS_Crane_9472_STAW_Crane_RRW-BuGR_Cajsa.csv'),"Cajsa")
 
 
     print("Finished import")
