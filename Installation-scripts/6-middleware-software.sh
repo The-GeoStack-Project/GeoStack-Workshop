@@ -10,12 +10,8 @@ sleep 2
 # Install Flask-pymongo using python pip 3
 pip3 install flask-pymongo
 
-echo "-------------->>>> Installing Gunicorn 3 <<<<--------------"
-sleep 2
-# Install gunicorn 3
-sudo apt install gunicorn3
 
-echo "-------------->>>> Installing tilestache & pillow <<<<--------------"
+echo "-------------->>>> Installing tilestache & pillow & gunicorn<<<<--------------"
 sleep 2
 
 # Install Tilestache Pillow and Gunicorn2 python-packages.
@@ -23,10 +19,12 @@ pip3 install tilestache pillow gunicorn
 
 if [ `lsb_release -cs` == "focal" ] || [ `lsb_release -cs` == "Eoan" ]
 then
+    sudo apt install gunicorn
     echo "Fixing Tilestache on Ubuntu 20.04"
     sudo cp ~/GeoStack-Workshop/Geostack-Workshop-Content/Scripts/py3_compat.py /home/geostack/.local/lib/python3.8/site-packages/TileStache/
 else
-    return;
+    
+    sudo apt install gunicorn3
 fi
 
 echo "-------------->>>> Installing NGINX <<<<--------------"
