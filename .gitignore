@@ -1,5 +1,4 @@
 *.odt
-*.directory
 *.idea
 *.ipynb_checkpoints
 .idea
