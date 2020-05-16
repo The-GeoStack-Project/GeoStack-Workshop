@@ -38,3 +38,6 @@ sleep 2
 
 # Remove the downloaded deb file from MongoCompass.
 sudo rm mongodb-compass_1.20.4_amd64.deb
+
+echo "-------------->>>> DONE <<<<--------------"
+

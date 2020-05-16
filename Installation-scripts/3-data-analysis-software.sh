@@ -36,3 +36,6 @@ sleep 2
 
 # Install GPXPY geopy and numpy
 pip3 install gpxpy geopy numpy
+
+echo "-------------->>>> DONE <<<<--------------"
+
