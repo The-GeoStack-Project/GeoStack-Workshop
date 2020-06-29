@@ -364,6 +364,11 @@ export class MapComponent implements OnInit {
 		Below we add the newly created layer to our OpenLayers Map.
 		*/
 		this.map.addLayer(pointVectorLayer)
+		/**
+		 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+		 #                              END ASSIGNMENT 3                                 #
+		 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+		*/
 	}
 
 
@@ -482,10 +487,18 @@ export class MapComponent implements OnInit {
 		 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 		 #                              START ASSIGNMENT 4                               #
 		 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-		 #                        ADD THE LINELAYER TO THE OPENLAYERS MAP                #
+		 #                        ADD THE LINELAYER TO THE OPENLAYERS MAP  				       #
+		 #																		                                      		 #
+		 # 			TIP: Remember how we added the PointLayer to our map?                    #
+		 #																			   																		   #
 		 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 		 */
 		this.map.addLayer(lineVectorLayer) //TODO:
+		/**
+		 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+		 #                              END ASSIGNMENT 4                                 #
+		 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+		 */
 	}
 
 	/*
@@ -635,6 +648,13 @@ export class MapComponent implements OnInit {
         	*/
 			let coordinates = _this.transmissions[currentCoordIndex]['coord']['coordinates'];
 
+			/**
+      # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+      #                              START ASSIGNMENT 5                               #
+      # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+      #                       Finish the code required to create an Animation         #
+      # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+      */
 
 			//TODO: Transform the value of the variable:"coordinates" to the correct
 			//TODO  format that can be used by OpenLayers. When doing this, think about what
@@ -650,6 +670,12 @@ export class MapComponent implements OnInit {
 			//TODO: Create the code which increments the value of the currentCoordIndex
 			//TODO  variable by 1.
 			currentCoordIndex++;
+
+			/**
+			# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+			#                              END ASSIGNMENT 5                                 #
+			# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+			*/
 
 			  /*
 			  Below the check is performed to see if the route has not reached the last coordinate yet.

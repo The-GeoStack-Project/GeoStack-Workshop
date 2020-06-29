@@ -485,10 +485,10 @@ export class MapComponent implements OnInit {
 		 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 		 #                              START ASSIGNMENT 4                               #
 		 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-		 #                        ADD THE LINELAYER TO THE OPENLAYERS MAP  				 #
-		 #																				 #
-		 # 			TIP: Remember how we added the PointLayer to our map?                #
-		 #																			     #
+		 #                        ADD THE LINELAYER TO THE OPENLAYERS MAP  				       #
+		 #																		                                      		 #
+		 # 			TIP: Remember how we added the PointLayer to our map?                    #
+		 #																			   																		   #
 		 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 		 */
 		 //TODO:
@@ -645,21 +645,21 @@ export class MapComponent implements OnInit {
         	from the list and assigned to a variable called:'coordinates".
         	*/
 			let coordinates = _this.transmissions[currentCoordIndex]['coord']['coordinates'];
-            
-            
-            /**
-            # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-            #                              START ASSIGNMENT 5                               #
-            # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-            #                       Finish the code required to create an Animation         #
-            # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-            */
+
+
+      /**
+      # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+      #                              START ASSIGNMENT 5                               #
+      # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+      #                       Finish the code required to create an Animation         #
+      # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+      */
 
 
 			//TODO: Transform the value of the variable:"coordinates" to the correct
 			//TODO  format that can be used by OpenLayers. When doing this, think about what
 			//TODO  you did when creating the line and point layers.
-            // TIP: place te anwser behind the code:" let transformedCoords = "
+      // TIP: place te anwser behind the code:" let transformedCoords = "
 			let transformedCoords
 
 			/*
