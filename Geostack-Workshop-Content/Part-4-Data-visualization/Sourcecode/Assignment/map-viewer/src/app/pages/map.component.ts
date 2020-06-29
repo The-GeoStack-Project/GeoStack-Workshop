@@ -347,7 +347,7 @@ export class MapComponent implements OnInit {
 		PointFeatures as features of the VectorSource.
 		*/
 		let pointVectorSource = new ol.source.Vector({
-    //TODO: Add the list of PointFeatures as value of the VectorSource Features.
+            //TODO: Add the list of PointFeatures as value of the VectorSource Features.
 		});
 
 		/*
@@ -632,6 +632,15 @@ export class MapComponent implements OnInit {
         	from the list and assigned to a variable called:'coordinates".
         	*/
 			let coordinates = _this.transmissions[currentCoordIndex]['coord']['coordinates'];
+            
+            
+            /**
+            # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+            #                              START ASSIGNMENT 5                               #
+            # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+            #                       Finish the code required to create an Animation         #
+            # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+            */
 
 
 			//TODO: Transform the value of the variable:"coordinates" to the correct

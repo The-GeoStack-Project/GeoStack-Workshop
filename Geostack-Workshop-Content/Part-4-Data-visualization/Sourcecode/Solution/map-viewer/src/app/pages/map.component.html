@@ -13,6 +13,7 @@
                     <li class="header-title">
                         Trackers in database:
                     </li>
+
                     <ng-container *ngFor="let tracker of trackers">
                         <button class="btn btn-white btn-block" (click)='getTransmissions(tracker._id.$oid);'>{{tracker.name}}</button>
                     </ng-container>
