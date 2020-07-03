@@ -21,6 +21,11 @@ sleep 2
 # Install net-tools
 sudo apt install net-tools 
 
+echo "-------------->>>> Installing Curl <<<<--------------"
+sleep 2 
+# Install CURL 
+sudo apt install curl 
+
 echo "-------------->>>> Installing Python3 and PIP <<<<--------------"
 sleep 2 
 # Install Python3 and Python3-Pip
