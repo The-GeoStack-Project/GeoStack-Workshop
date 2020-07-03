@@ -56,7 +56,6 @@ def load_data(df,name):
                                           coord = [row['location-long'],row['location-lat']],
                                           alt = row['height-above-ellipsoid'],
                                           speed = row['ground-speed'],
-                                          heading = row['heading'],
                                           tracker = tracker))
         
     Transmission.objects.insert(transmissions,load_bulk=True)
@@ -94,5 +93,4 @@ elif choice in no:
    exit()
 else:
    sys.stdout.write("Please respond with 'yes' or 'no'")
-
 
