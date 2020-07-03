@@ -3,3 +3,5 @@
 *.ipynb_checkpoints
 .idea
 .ipynb_checkpoints
+
+*.odt#
