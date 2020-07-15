@@ -72,6 +72,10 @@ export class CraneService {
     has the id passed in this function,from the MongoDB datastore.
 
     The function:"getTracker()" then returns the tracker to our MapComponent.
+    
+    NOTE: When performing an API call using an input parameter (noted as: ${parameter name})
+          use should encapsulate the Request URL in backtick qoutes (`) instead of singel quotes (').
+          Backtick quotes are officiale called grave accent string quotes. 
     */
     getTracker(id:string): Observable<any> {
         return this.http.get<any>(`api/trackers/${id}`)
