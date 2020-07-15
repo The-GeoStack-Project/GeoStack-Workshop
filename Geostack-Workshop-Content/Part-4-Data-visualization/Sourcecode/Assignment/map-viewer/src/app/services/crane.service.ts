@@ -73,9 +73,13 @@ export class CraneService {
 
     The function:"getTracker()" then returns the tracker to our MapComponent.
     
-    NOTE: When performing an API call using an input parameter (noted as: ${parameter name})
-          use should encapsulate the Request URL in backtick qoutes (`) instead of singel quotes (').
-          Backtick quotes are officiale called grave accent string quotes. 
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+    # IMPORTANT NOTE:                                                                         #
+    #      When performing an API call using an input parameter (noted as: ${parameter name}) #
+    #      you should encapsulate the request URL in backtick qoutes (`) instead of           #
+    #      single quotes ('). Backtick quotes are officially called grave accent quotes.      #
+    #                                                                                         #
+    # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
     */
     getTracker(id:string): Observable<any> {
         return this.http.get<any>(`api/trackers/${id}`)
