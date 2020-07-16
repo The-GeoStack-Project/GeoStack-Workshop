@@ -16,26 +16,26 @@ sudo apt update
 sudo apt-get install libproj-dev proj-data proj-bin libgeos-dev
 
 # Install Pandas.
-pip3 install pandas
+sudo -H pip3 install pandas
 
 echo "-------------->>>> Installing Cartopy <<<<--------------"
 sleep 2
 
 # Install cython before cartopy since it's a dependency for cartopy.
-pip3 install cython
+sudo -H pip3 install cython
 
 # Install matplotlib and scipy.
-pip3 install matplotlib scipy
+sudo -H pip3 install matplotlib scipy
 
 # Install Cartopy
-pip3 install git+https://github.com/SciTools/cartopy.git --no-binary cartopy
+sudo -H pip3 install git+https://github.com/SciTools/cartopy.git --no-binary cartopy
 
 
 echo "-------------->>>> Installing GPXPY <<<<--------------"
 sleep 2
 
 # Install GPXPY geopy and numpy
-pip3 install gpxpy geopy numpy
+sudo -H pip3 install gpxpy geopy numpy
 
 echo "-------------->>>> DONE <<<<--------------"
 
