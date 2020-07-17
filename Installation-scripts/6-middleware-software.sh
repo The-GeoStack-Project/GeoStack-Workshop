@@ -3,7 +3,7 @@
 echo "-------------->>>> Installing Flask <<<<--------------"
 sleep 2
 # Install Flask using python pip 3
-pip3 install Flask
+sudo -H pip3 install Flask
 
 echo "-------------->>>> Installing Flask-Pymongo <<<<--------------"
 sleep 2
@@ -15,7 +15,7 @@ echo "-------------->>>> Installing tilestache & pillow & gunicorn<<<<----------
 sleep 2
 
 # Install Tilestache Pillow and Gunicorn2 python-packages.
-pip3 install tilestache pillow gunicorn
+sudo -H pip3 install tilestache pillow gunicorn
 
 if [ `lsb_release -cs` == "focal" ] || [ `lsb_release -cs` == "Eoan" ]
 then
