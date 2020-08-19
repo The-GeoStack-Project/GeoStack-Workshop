@@ -21,7 +21,7 @@ if [ `lsb_release -cs` == "focal" ] || [ `lsb_release -cs` == "Eoan" ]
 then
     sudo apt install gunicorn
     echo "Fixing Tilestache on Ubuntu 20.04"
-    sudo cp ~/GeoStack-Workshop/Geostack-Workshop-Content/Scripts/py3_compat.py /home/geostack/.local/lib/python3.8/site-packages/TileStache/
+    sudo cp ~/GeoStack-Workshop/Geostack-Workshop-Content/Scripts/py3_compat.py /usr/local/lib/python3.8/dist-packages/TileStache
 else
     
     sudo apt install gunicorn3
