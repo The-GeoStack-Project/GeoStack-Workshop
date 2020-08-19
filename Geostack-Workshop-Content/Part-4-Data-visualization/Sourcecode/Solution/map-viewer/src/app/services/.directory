@@ -1,6 +1,7 @@
 [Dolphin]
 PreviewsShown=true
 SortFoldersFirst=false
-Timestamp=2020,8,19,16,28,56
+SortOrder=1
+Timestamp=2020,8,19,16,28,59
 Version=4
 ViewMode=1

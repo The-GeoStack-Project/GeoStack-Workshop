@@ -49,7 +49,7 @@ export class CraneService {
     # TIP 1: If you forgot which URL is bound to the function that serves our needs, you
     #        have to check back in the code of our Flask-API.
     #
-    # TIP 2: If you get stuck you can always take a look at the code on lines (77, 95 and 117)
+    # TIP 2: If you get stuck you can always take a look at the code on lines (85, 103 and 125)
     #
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
     */
@@ -72,7 +72,7 @@ export class CraneService {
     has the id passed in this function,from the MongoDB datastore.
 
     The function:"getTracker()" then returns the tracker to our MapComponent.
-    
+
     # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
     # IMPORTANT NOTE:                                                                         #
     #      When performing an API call using an input parameter (noted as: ${parameter name}) #
