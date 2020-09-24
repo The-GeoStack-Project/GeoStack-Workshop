@@ -6,11 +6,6 @@ sleep 2
 # database
 sudo apt update && sudo apt upgrade
 
-echo "-------------->>>> Installing VM tools<<<<--------------"
-sleep 2 
-# Install OpenVMTools for VMware
-sudo apt install open-vm-tools-desktop
-
 echo "-------------->>>> Installing Bleachbit <<<<--------------"
 sleep 2 
 # Install bleachbit
