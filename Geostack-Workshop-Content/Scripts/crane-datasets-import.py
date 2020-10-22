@@ -73,7 +73,7 @@ def import_data():
     connect('Crane_Database')
     print("Starting import")
 
-    load_data(pd.read_csv('~/GeoStack-Workshop/Geostack-Workshop-Content/Workshop-Datasets/CSV/20181003_Dataset_SV_TrackerID_9407_ColorCode_RRW-BuGBY_Crane_Agnetha.csv'),"Agnetha")
+    load_data(pd.read_csv('~/GeoStack-Workshop/Geostack-Workshop-Content/Workshop-Datasets/CSV/20181003_Dataset_SV_TrackerID_9407_ColorCode_RRW-BuGY_Crane_Agnetha.csv'),"Agnetha")
     load_data(pd.read_csv('~/GeoStack-Workshop/Geostack-Workshop-Content/Workshop-Datasets/CSV/20181003_Dataset_SV_TrackerID_9381_ColorCode_RRW-BuGBk_Crane_Frida.csv'),"Frida")
     load_data(pd.read_csv('~/GeoStack-Workshop/Geostack-Workshop-Content/Workshop-Datasets/CSV/20181003_Dataset_SV_TrackerID_9472_ColorCode_RRW-BuGR_Crane_Cajsa.csv'),"Cajsa")
     print("Finished import")
