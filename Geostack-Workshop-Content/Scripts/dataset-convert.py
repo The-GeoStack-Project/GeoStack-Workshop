@@ -67,5 +67,5 @@ parse_transform_GPX("Biesbosch.gpx",'Route-Biesbosch.json')
 parse_transform_GPX("Zeeland_Car_2.gpx",'Route-Zeeland_Car_2.json')
 
 filter_transform_CSV('20181003_Dataset_SV_TrackerID_9381_ColorCode_RRW-BuGBk_Crane_Frida.csv','Crane-Frida.json')
-filter_transform_CSV('20181003_Dataset_SV_TrackerID_9407_ColorCode_RRW-BuGBY_Crane_Agnetha.csv','Crane-Agnetha.json')
+filter_transform_CSV('20181003_Dataset_SV_TrackerID_9407_ColorCode_RRW-BuGY_Crane_Agnetha.csv','Crane-Agnetha.json')
 filter_transform_CSV('20181003_Dataset_SV_TrackerID_9472_ColorCode_RRW-BuGR_Crane_Cajsa.csv','Crane-Cajsa.json')
