@@ -47,6 +47,19 @@ else
     sudo apt-get update && sudo apt-get install atom
 fi
 
+# Install Docker
+echo "-------------->>>> Installing Docker <<<<--------------"
+sleep 2
+# Update local package database
+sudo apt-get update
+
+# Install required packages for Docker.
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+
+sudo apt install docker.io
+
+sudo usermod -a -G docker $USER
+
 
 # Set the sidebar shortcuts to contain firefox, nautilus, a terminal launcher and Atom.
 echo "-------------->>>> Adding new shortcuts <<<<--------------"

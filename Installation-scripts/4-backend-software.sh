@@ -6,8 +6,13 @@ sleep 2
 # Install a package required for MongoDB
 sudo apt install libgconf-2-4
 
-# Install MongoDB
-sudo apt install mongodb
+# Install MongoDB package or create Docker container depending on the OS
+if [ `lsb_release -cs` == "groovy" ]
+then
+    docker run --restart=always --name mongodb-docker -p 27017:27017 -d mongo
+else
+    sudo apt install mongodb
+fi
 
 echo "-------------->>>> Downloading MongoCompass <<<<--------------"
 sleep 2
@@ -25,7 +30,7 @@ echo "-------------->>>> Adding shortcut <<<<--------------"
 sleep 2
 
 # Set the sidebar shortcuts to contain firefox, nautilus, a terminal launcher, atom and the MongoCompass shortcut.
-gsettings set org.gnome.shell favorite-apps "['firefox.desktop', 'org.gnome.Nautilus.desktop','org.gnome.Software.desktop','yelp.desktop', 'org.gnome.Terminal.desktop', 'atom.desktop','mongodb-compass.desktop']"
+gsettings set org.gnome.shell favorite-apps "['firefox.desktop', 'org.gnome.Nautilus.desktop','org.gnome.Software.desktop','yelp.desktop', 'org.gnome.Terminal.desktop', 'atom.desktop','atom-beta.desktop,'mongodb-compass.desktop']"
 
 echo "-------------->>>> Installing MongoEngine <<<<--------------"
 sleep 2

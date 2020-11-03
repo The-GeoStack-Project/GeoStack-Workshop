@@ -17,7 +17,7 @@ sleep 2
 # Install Tilestache Pillow and Gunicorn2 python-packages.
 sudo -H pip3 install tilestache pillow gunicorn
 
-if [ `lsb_release -cs` == "focal" ] || [ `lsb_release -cs` == "Eoan" ]
+if [ `lsb_release -cs` == "focal" ] || [ `lsb_release -cs` == "Eoan" ] || [ `lsb_release -cs` == "groovy" ]
 then
     sudo apt install gunicorn
     echo "Fixing Tilestache on Ubuntu 20.04"
