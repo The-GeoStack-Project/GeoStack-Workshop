@@ -38,13 +38,20 @@ wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
 # Add the atom repo to the repo list.
 sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
 
-# Update the local package database and install Atom.
-sudo apt-get update && sudo apt-get install atom
+# Update the local package database and install Atom depending on the OS.
+if [ `lsb_release -cs` == "groovy" ]
+then
+    sudo apt-get update && sudo apt-get install atom-beta
+else
+    
+    sudo apt-get update && sudo apt-get install atom
+fi
+
 
 # Set the sidebar shortcuts to contain firefox, nautilus, a terminal launcher and Atom.
 echo "-------------->>>> Adding new shortcuts <<<<--------------"
 sleep 2 
-gsettings set org.gnome.shell favorite-apps "['firefox.desktop', 'org.gnome.Nautilus.desktop','org.gnome.Software.desktop','yelp.desktop', 'org.gnome.Terminal.desktop','atom.desktop']"
+gsettings set org.gnome.shell favorite-apps "['firefox.desktop', 'org.gnome.Nautilus.desktop','org.gnome.Software.desktop','yelp.desktop', 'org.gnome.Terminal.desktop','atom.desktop','atom-beta.desktop']"
 
 echo "-------------->>>> Rebooting system <<<<--------------"
 sleep 5
