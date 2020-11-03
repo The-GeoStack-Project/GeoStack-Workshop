@@ -30,7 +30,7 @@ echo "-------------->>>> Adding shortcut <<<<--------------"
 sleep 2
 
 # Set the sidebar shortcuts to contain firefox, nautilus, a terminal launcher, atom and the MongoCompass shortcut.
-gsettings set org.gnome.shell favorite-apps "['firefox.desktop', 'org.gnome.Nautilus.desktop','org.gnome.Software.desktop','yelp.desktop', 'org.gnome.Terminal.desktop', 'atom.desktop','atom-beta.desktop,'mongodb-compass.desktop']"
+gsettings set org.gnome.shell favorite-apps "['firefox.desktop', 'org.gnome.Nautilus.desktop','org.gnome.Software.desktop','yelp.desktop', 'org.gnome.Terminal.desktop', 'atom.desktop','atom-beta.desktop','mongodb-compass.desktop']"
 
 echo "-------------->>>> Installing MongoEngine <<<<--------------"
 sleep 2
