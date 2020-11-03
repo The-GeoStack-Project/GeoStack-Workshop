@@ -20,7 +20,7 @@ sudo -H pip3 install tilestache pillow gunicorn
 if [ `lsb_release -cs` == "focal" ] || [ `lsb_release -cs` == "Eoan" ] || [ `lsb_release -cs` == "groovy" ]
 then
     sudo apt install gunicorn
-    echo "Fixing Tilestache on Ubuntu 20.04"
+    echo "Fixing Tilestache on Ubuntu 20.04 and 20.10"
     sudo cp ~/GeoStack-Workshop/Geostack-Workshop-Content/Scripts/py3_compat.py /usr/local/lib/python3.8/dist-packages/TileStache
 else
     
