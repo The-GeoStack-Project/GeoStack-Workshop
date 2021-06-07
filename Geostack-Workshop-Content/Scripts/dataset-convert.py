@@ -3,14 +3,15 @@ import gpxpy
 import datetime
 import pandas as pd
 import os
+from pathlib import Path
 
-un = os.getlogin()
+home = str(Path.home)
 
-input_location_gpx = '/home/' + str(un) + '/GeoStack-Workshop/Geostack-Workshop-Content/Workshop-Datasets/GPX/'
-output_location_gpx = '/home/' + str(un) + '/GeoStack-Workshop/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/'
+input_location_gpx = home + '/GeoStack-Workshop/Geostack-Workshop-Content/Workshop-Datasets/GPX/'
+output_location_gpx = home + '/GeoStack-Workshop/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/'
 
-input_location_csv = '/home/' + str(un) + '/GeoStack-Workshop/Geostack-Workshop-Content/Workshop-Datasets/CSV/'
-output_location_csv = '/home/' + str(un) + '/GeoStack-Workshop/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/'
+input_location_csv = home + '/GeoStack-Workshop/Geostack-Workshop-Content/Workshop-Datasets/CSV/'
+output_location_csv = home + '/GeoStack-Workshop/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/'
 
 
 def create_df(data):
