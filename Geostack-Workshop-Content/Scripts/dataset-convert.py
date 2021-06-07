@@ -5,7 +5,7 @@ import pandas as pd
 import os
 from pathlib import Path
 
-home = str(Path.home)
+home = str(Path.home())
 
 input_location_gpx = home + '/GeoStack-Workshop/Geostack-Workshop-Content/Workshop-Datasets/GPX/'
 output_location_gpx = home + '/GeoStack-Workshop/Geostack-Workshop-Content/Part-2-Data-storage/Datasets/JSON/'
