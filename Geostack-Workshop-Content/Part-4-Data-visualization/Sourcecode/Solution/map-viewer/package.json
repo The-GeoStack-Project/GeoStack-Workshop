@@ -24,6 +24,7 @@
     "chartist": "^0.11.4",
     "chartist-plugin-tooltips": "0.0.17",
     "font-awesome": "^4.7.0",
+     "lodash":"^4.17.21"
     "material-design-icons": "^3.0.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
