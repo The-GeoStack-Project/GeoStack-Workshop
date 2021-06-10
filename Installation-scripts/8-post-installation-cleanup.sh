@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "-------------->>>> Cleaning system <<<<--------------"
 sleep 2
