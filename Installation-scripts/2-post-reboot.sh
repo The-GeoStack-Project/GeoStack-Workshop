@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "-------------->>>> Moving workshop shortcuts <<<<--------------"
 sleep 2
