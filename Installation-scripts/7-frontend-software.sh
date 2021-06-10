@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "-------------->>>> Installing NodeJS <<<<--------------"
 sleep 2
