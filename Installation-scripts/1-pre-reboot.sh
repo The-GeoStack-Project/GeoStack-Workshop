@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "-------------->>>> Updating System <<<<--------------"
 sleep 2 
