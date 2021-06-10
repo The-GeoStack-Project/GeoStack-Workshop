@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "-------------->>>> Copying Workshop Part 1 Datasets <<<<--------------"
 sleep 2
