@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "-------------->>>> Installing Flask <<<<--------------"
 sleep 2
