@@ -36,7 +36,10 @@ sleep 2
 wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
 
 # Add the atom repo to the repo list.
-sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+if [ ! -f /etc/apt/sources.list.d/atom.list ];
+then 
+  sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+fi
 
 # Update the local package database and install Atom.
 sudo apt-get update && sudo apt-get install atom
