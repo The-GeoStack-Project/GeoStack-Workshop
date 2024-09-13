@@ -11,3 +11,6 @@ Welcome to the 1-day GeoStack Workshop!
   - This cookbook also has the instructions on how to download the required datasets and run the installation scripts.
   - This cookbook can be download via the blue button 'Download Manuals' on the [GitHub home page of The GeoStack Project](https://The-GeoStack-Project.github.io).
 - The Cookbook-Workshop-Assignments also has lots of background information for beginners to study carefully!
+
+Workshop-Datasets: contains the datasets of the Swedish cranes 'Agnetha', 'Frida' and 'Cajsa' and the dataset of the Lithouanian crane 'Lita'.
+See the dataset subfolders for the READ_ME files with information about the datasets of these ringed cranes.
