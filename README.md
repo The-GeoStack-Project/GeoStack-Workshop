@@ -13,5 +13,6 @@ Welcome to the 1-day GeoStack Workshop!
 - The Cookbook-Workshop-Assignments also has lots of background information for beginners to study carefully!
 
 **Workshop-Datasets**
+
 Workshop-Datasets: contains the datasets of the Swedish cranes 'Agnetha', 'Frida' and 'Cajsa' and the dataset of the Lithouanian crane 'Lita'.
 See the dataset subfolders for the READ_ME files with information about the datasets of these ringed cranes.
